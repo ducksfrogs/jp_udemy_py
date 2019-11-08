@@ -1,4 +1,20 @@
 def say_something():
-    print("Hi")
+    s = 'hi'
+    return s
 
-say_something()
+
+result = say_something()
+print(result)
+
+
+def what_is_this(color):
+    if color == 'red':
+        return 'tomato'
+    elif color == 'green':
+        return 'green pepper'
+    else:
+        return 'I dont know'
+
+result = what_is_this('green')
+
+print(result)
