@@ -1,4 +1,6 @@
-def menu(entree):
-    print(entree)
+def menu(*args):
+    print(args)
 
-menu('beef',)
+menu('beef','mmo', 'ddde')
+
+
